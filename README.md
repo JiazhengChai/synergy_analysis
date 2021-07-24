@@ -69,10 +69,10 @@ All the essential commands are summarized in:
 `essential_commands_list.sh`
 
 To produce results of Paper1, Paper 2, and Paper 3, check:
-1) Paper1_commands.sh
-2) Paper2_Arm2D_commands.sh
-3) Paper2_Arm3D_commands.sh
-4) Paper3_commands.sh
+1) `Paper1_commands.sh`
+2) `Paper2_Arm2D_commands.sh`
+3) `Paper2_Arm3D_commands.sh`
+4) `Paper3_commands.sh`
 
 All the commands in the files above are sequential by block, meaning each block of commands must be run before next block of commands can be run.
 
