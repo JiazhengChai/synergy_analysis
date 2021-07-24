@@ -1,6 +1,6 @@
 # synergy_analysis
 
-synergy_analysis is the codebase used by me (Chai Jiazheng) during my PhD thesis.
+synergy_analysis is the codebase used by me during my PhD thesis.
 
 This codebase contains codes and commands to reproduce the results in three published papers. 
 
