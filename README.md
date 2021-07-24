@@ -10,7 +10,7 @@ Windows usage not supported.
 
 # Special notes
 I customized the softlearning codebase to run my experiments.
-Author of modification: Chai Jiazheng e-mail:chai.jiazheng.q1@dc.tohoku.ac.jp
+Author of modification: Chai Jiazheng e-mail: jiazheng1310@gmail.com
 
 # Getting Started
 
