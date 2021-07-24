@@ -45,7 +45,7 @@ conda deactivate
 
 ## GPU usage
 While GPU does not necessary speed up the training speed since relatively simple neural networks are used in the RL framework, if you wish to use GPU, please install the corresponding CUDA and CuDNN version as described in the official Tensorflow page:
-![alt text](cuda_version.png)
+![alt text](./cuda_version.png)
 
 I am using Tensorflow 2.2. But it is not necessary to have a GPU.
 
