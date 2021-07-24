@@ -44,7 +44,7 @@ conda deactivate
 ```
 
 ## GPU usage
-While GPU does not necessary speed up the training speed since relatively simple neural networks are used in the RL framework, if you wish to use GPU, it is already functional if you successfully create the virtual environment `tested_env` by running `conda env create -f runnable.yml`.
+While GPU does not necessary speed up the training speed since relatively simple neural networks are used in the RL framework, if you wish to use GPU, it is already functional if you have successfully created the virtual environment `tested_env` by running `conda env create -f runnable.yml`
 
 ## Troubleshooting 
 It is possible that there might be some problems happening during the installation. 
