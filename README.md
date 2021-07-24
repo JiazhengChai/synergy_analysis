@@ -62,7 +62,7 @@ If `mujoco_py` installation has some issues, make sure to follow the troubleshoo
 https://github.com/openai/mujoco-py/
 
 
-##To run and reproduce my results:
+## To run and reproduce my results:
 Please read the synergy_analysis_tutorials.pdf for details of the code usage.
 
 All the essential commands are summarized in:
@@ -82,23 +82,23 @@ The experimental results are stored in `experiments_results` folder in the `syne
 # References
 The codes are based on the following papers:
 
-#####Paper 1 of my thesis:
+##### Paper 1 of my thesis:
 
 J. Chai and M. Hayashibe, *Motor Synergy Development in High-Performing Deep
 Reinforcement Learning Algorithms*, in IEEE Robotics and Automation Letters,
 vol. 5, no. 2, pp. 1271-1278, April 2020.
 
-#####Paper 2 of my thesis:
+##### Paper 2 of my thesis:
 
 J. Chai and M. Hayashibe, *Quantification of Joint Redundancy considering Dy-
 namic Feasibility using Deep Reinforcement Learning*, in ICRA 2021.
 
-#####Paper 3 of my thesis:
+##### Paper 3 of my thesis:
 
 J. Chai and M. Hayashibe, *Deep Reinforcement Learning with Gait Mode Specifi-
 cation for Quadrupedal Trot-Gallop Energetic Analysis*, in EMBC 2021.
 
-#####Reference to the original softlearning codebase:
+##### Reference to the original softlearning codebase:
 If Softlearning helps you in your academic research, you are encouraged to cite their paper. Here is an example bibtex:
 ```
 @techreport{haarnoja2018sacapps,
