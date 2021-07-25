@@ -26,9 +26,9 @@ Also, our environments currently require a [MuJoCo](https://www.roboti.us/licens
 2. Copy your MuJoCo license key (mjkey.txt) to ~/.mujoco/mjkey.txt and ~/.mujoco/mujoco200/bin/mjkey.txt
 
 ## synergy_analysis Installation
-3. Unzip codebase `synergy_analysis`
+3. Clone the codebase `synergy_analysis`
 
-4. Create and activate conda environment, install `synergy_analysis` to enable command line interface.
+4. Create and activate conda environment, install `synergy_analysis` to enable command line interface:
 ```
 cd ${synergy_analysis_PATH}
 conda env create -f runnable.yml
