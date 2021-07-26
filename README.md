@@ -2,7 +2,7 @@
 
 synergy_analysis is the codebase used by me during my PhD thesis.
 
-This codebase contains codes and commands to reproduce the results in three published papers. 
+This codebase contains codes and commands to reproduce the results in three published papers. It will be the reference for all future users who are interested to do research related to my thesis and who want to have an idea about how some results are produced in my thesis.
 
 This implementation uses Tensorflow 2.2 and is tested under Ubuntu 18.04. 
 
