@@ -43,24 +43,8 @@ Finally, to deactivate:
 conda deactivate
 ```
 
-## GPU usage
-While GPU does not necessary speed up the training speed since relatively simple neural networks are used in the RL framework, if you wish to use GPU, it is already functional if you have successfully created the virtual environment `tested_env` by running `conda env create -f runnable.yml`
-
-## Troubleshooting 
-It is possible that there might be some problems happening during the installation. 
-
-To solve the issues, one way is to solve the libraries version issues case by case, but make sure to follow the version of the following tricky libraries' version:
-1) install serializable by: (you must uninstall it first) 
-`pip install git+https://github.com/hartikainen/serializable.git@76516385a3a716ed4a2a9ad877e2d5cbcf18d4e6`
-2) tensorflow==2.2.0
-3) tensorflow-probability==0.10.1
-
-If `mujoco_py` installation has some issues, make sure to follow the troubleshooting and installation guides provided on the official github page:
-https://github.com/openai/mujoco-py/
-
-
 ## To run and reproduce my results:
-Please read the synergy_analysis_tutorials.pdf for details of the code usage.
+Please read the `synergy_analysis_tutorials.pdf` for details of the code usage.
 
 All the essential commands are summarized in:
 `essential_commands_list.sh`
@@ -75,6 +59,20 @@ All the commands in the files above are sequential by block, meaning each block 
 
 The experimental results are stored in `experiments_results` folder in the `synergy_analysis` codebase.
 
+## GPU usage
+While GPU does not necessary speed up the training speed since relatively simple neural networks are used in the RL framework, if you wish to use GPU, it is already functional if you have successfully created the virtual environment `tested_env` by running `conda env create -f runnable.yml`
+
+## Troubleshooting 
+It is possible that there might be some problems happening during the installation. 
+
+If `mujoco_py` installation has some issues, make sure to follow the troubleshooting and installation guides provided on the official github page:
+https://github.com/openai/mujoco-py/
+
+To solve other issues, one way is to solve the libraries version issues case by case, but make sure to follow the version of the following tricky libraries' version:
+1) install serializable by: (you must uninstall it first) 
+`pip install git+https://github.com/hartikainen/serializable.git@76516385a3a716ed4a2a9ad877e2d5cbcf18d4e6`
+2) tensorflow==2.2.0
+3) tensorflow-probability==0.10.1
 
 # References
 The codes are based on the following papers:
