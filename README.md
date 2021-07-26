@@ -6,7 +6,7 @@ This codebase contains codes and commands to reproduce the results in three publ
 
 This implementation uses Tensorflow 2.2 and is tested under Ubuntu 18.04. 
 
-Windows usage not supported. 
+Windows usage not supported, but Docker might be a solution for those interested. 
 
 # Special notes
 I customized the softlearning codebase to run my experiments.
