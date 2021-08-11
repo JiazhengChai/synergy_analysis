@@ -68,6 +68,11 @@ It is possible that there might be some problems happening during the installati
 If `mujoco_py` installation has some issues, make sure to follow the troubleshooting and installation guides provided on the official github page:
 https://github.com/openai/mujoco-py/
 
+If mpi4py is missing or unable to install it by pip, try:
+1)    ```sudo apt-get update -y```
+2)    ```sudo apt-get install -y python3-mpi4py```
+3)    ```pip install mpi4py```
+
 To solve other issues, one way is to solve the libraries version issues case by case, but make sure to follow the version of the following tricky libraries' version:
 1) install serializable by: (you must uninstall it first) 
 `pip install git+https://github.com/hartikainen/serializable.git@76516385a3a716ed4a2a9ad877e2d5cbcf18d4e6`
